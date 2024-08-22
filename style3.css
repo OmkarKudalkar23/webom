@@ -1,0 +1,341 @@
+.nav{
+    height:100px;
+}
+button{
+    color:red;
+}
+.anchornav{
+    text-decoration: none;
+    color: black;
+    padding: 40px;
+    position:relative;
+    top:1px;
+    font-weight:600;
+    font-size: large;
+}
+.anchornav:hover{
+    color:grey;
+}
+#logo{
+    padding-right: 700px;
+    position:relative;
+    top:20px;
+    left:250px;
+ }
+ #navbtn{
+    
+    margin-left: 38px;
+    height: 40px;
+    text-align: center;
+    font-size: larger;
+    color: white;
+    background-color: #59a95d;
+    border: none;
+    border-radius: 4px;
+    width:200px;
+ }
+ #navbtn:hover{
+    color:green;
+ }
+ .opac{
+    height:600px;
+    background-color: rgba(156, 152, 152, 0.1);
+ }
+ .opactext{
+    width: 900px;
+    display: inline-block;
+    margin-top: 140px;
+    
+ }
+ #opachead{
+    position:relative;
+    left:250px;
+    font-size: 59px;
+    color: #575858;
+    width: 500px;
+
+}
+#opachead2{
+    position: absolute;
+    left:252px;
+    top:150px;
+    color: #66e96c;
+    font-size: 70px;
+    margin-top:190px;
+}
+#opacpara{
+color:gray;
+position:relative;
+left:249px;
+font-size:25;}
+.opacimg{
+    background-image: url(./csi1.png);
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:500px;
+    height: 400px;
+    position: absolute;
+    top: 200px;
+    right:200px;
+}
+#registerbtn{
+    background-color: #59a95d;
+    color:white;
+    position: relative;
+    left:250px;
+    height:40px;
+    font-size: 15px;
+    width: 100px;
+    border: none;
+    border-radius: 4px;
+
+}
+#registerbtn:hover{
+    color:green;
+}
+.center1{
+    text-align: center;
+}
+.h1under{
+    text-align: center;
+    font-size: 50;
+    color: #383737;
+}
+#under1{
+    color: rgb(182, 179, 179);
+    font-size: 25;
+}
+#membership{
+    height: 350px;
+    width:450px;
+    padding-top:5px;
+    position: relative;
+    left: 150px;
+    box-shadow: 5px 10px 18px #888888;
+    display: inline-block;
+    margin-right:120px;
+}
+#image1{
+    height: 60px;
+    position: relative;
+    left:190px;
+    background-image:url(./membership.png) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+#memberhead{
+    color:#635e5e;
+    text-align: center;
+}
+#memberpara{
+    text-align: center;
+    font-size: 25;
+    color: rgb(90, 84, 84);
+}
+#nationass{
+    height: 350px;
+    width:450px;
+    position: relative;
+    left: 150px;
+    top:30px;
+    box-shadow: 5px 10px 18px #888888;
+    margin-right: 120px;
+    display: inline-block;
+}
+#image2{
+    height: 60px;
+    position: relative;
+    left:190px;
+    background-image:url(./image2.png) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+#clubs{
+    height: 350px;
+    width:450px;
+    position: relative;
+    left: 150px;
+    top:0px;
+    box-shadow: 5px 10px 18px #888888;
+    display: inline-block;
+
+}
+#image3{
+    height: 60px;
+    position: relative;
+    left:190px;
+    background-image:url(./image3.png) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.center2{
+    height:470px;
+    width:1500px;
+    position: relative;
+    left: 185px;
+}
+#center2img{
+    width:40%;
+    height: 100%;
+    background-image: url(./image4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+#center2head{
+    display: inline-block;
+    position: relative;
+    bottom:450px;
+    left:680px;
+    font-size: 49;
+    color: rgb(29, 28, 28);}
+#center2para
+{  font-size: 23;
+   position: relative;
+   bottom:475px;
+   left:45%;
+   color: rgb(90, 84, 84);
+
+}
+#center2btn{
+    border: none;
+    color: white;
+    background-color: #59a95d;
+    height:60px;
+    font-size: 20px;
+    width: 170px;
+    border-radius: 4px;
+    position: relative;
+    bottom:435px;
+    left:670px;
+
+}
+#center2btn:hover{
+    color: green;
+}
+#center3head{
+    text-align: center;
+    font-size: 50;
+    color: #383737;
+}
+
+#center3para{
+    text-align: center;
+    font-size: 28;
+    color: rgb(90, 84, 84);
+    padding: 15px;
+}
+
+#feature1{
+    width:100px;
+    height:400px;
+    display:inline-block;
+    background-color: rgb(28, 9, 37);
+    background-image: url(./home.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.csi{
+    width:1800px;
+    height:400px;
+    margin-left: 130px;
+    display: inline-block;
+    z-index: -5;
+}
+#box1{
+    width:28%;
+    height:100%;
+    background-image: url(./image6.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 50px;
+    display: inline-block;
+    z-index:1;
+    position: relative;
+    top:150px;
+
+}
+#box1overlap{
+    width:424px;
+    height: 266px;
+    background-color: rgb(248, 248, 248);
+    position: relative;
+    left:35px;
+    top:256px;
+    border-width: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+#overlaph1{
+    text-align: center;
+    font-size: 34;
+}
+#overlaph2{
+    text-align: center;
+    text-decoration: none;
+    color: #59a95d; ;
+}
+#box2{
+    width:28%;
+    height:100%;
+    position: relative;
+    top:150px;
+    background-image: url(./image7.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 50px;
+    display: inline-block;
+    z-index:1;
+
+}
+#box2overlap{
+    width:424px;
+    height: 266px;
+    background-color: rgb(248, 248, 248);
+    z-index: 2;
+    border-width: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    left: 35px;
+    top:256px;
+
+}
+
+#box3{
+    width:28%;
+    height:100%;
+    background-image: url(./image8.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 50px;
+    display: inline-block;
+    z-index:-1;
+    position: relative;
+    top:150px;
+}
+#box3overlap{
+    width:424px;
+    height: 266px;
+    background-color: rgb(248, 248, 248);
+    z-index: 3;
+    border-width: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    position: relative;
+    left: 35px;
+    top:256px;
+
+}
+footer{
+    height:450px;
+    background-color: #24343c;
+    margin-top: 400px;
+}
